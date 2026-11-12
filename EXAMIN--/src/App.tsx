@@ -62,9 +62,11 @@ function App() {
   );
 
   return (
+
     <div>
       <input 
         value={search} type="search" placeholder="Search..." onChange={(e) => setSearch(e.target.value)} />
+
 
       <form className="addForm" onSubmit={(e) => {
         e.preventDefault();
